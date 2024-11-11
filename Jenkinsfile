@@ -9,7 +9,7 @@ pipeline{
         }
         stage("BUILD IMAGE***************"){
             steps{
-                bat "docker build -t=raptor22sq/seleniumJenk ."
+                bat "docker build -t=raptor22sq/seleniumjenk ."
 
             }
 
