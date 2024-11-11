@@ -20,7 +20,7 @@ pipeline{
             steps{
                 bat "docker push raptor22sq/seleniumjenk:latest"
                 bat "docker tag raptor22sq/seleniumjenk:latest raptor22sq/seleniumjenk:${env.BUILD_NUMBER}"
-                bat "raptor22sq/seleniumjenk:${env.BUILD_NUMBER}"
+                bat "docker push raptor22sq/seleniumjenk:${env.BUILD_NUMBER}"
             }
         }
     }
