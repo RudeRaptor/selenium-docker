@@ -16,7 +16,7 @@ pipeline{
         }
         stage("PUSH IMAGE*************"){
             steps{
-                bat "docker push raptor22sq/seleniumJenk"
+                bat "docker push raptor22sq/seleniumjenk"
 
             }
 
