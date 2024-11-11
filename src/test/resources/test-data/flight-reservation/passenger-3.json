@@ -1,0 +1,13 @@
+{
+  "firstName": "Sam",
+  "LastName": "Jones",
+  "email": "raptors@gmail.com",
+  "password": "mems",
+  "street": "800, santa barbara stree",
+  "city": "Los Angeles",
+  "zip": "10050",
+  "state": "California",
+  "passengersCount": "3",
+  "expectedPrice": "$1753 USD",
+  "destination": "Paris"
+}

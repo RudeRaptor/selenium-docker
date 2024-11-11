@@ -1,0 +1,13 @@
+{
+  "firstName": "Marry",
+  "LastName": "Jane",
+  "email": "yadowo@gmail.com",
+  "password": "mems",
+  "street": "100, long island Ave",
+  "city": "Miami",
+  "zip": "10099",
+  "state": "Florida",
+  "passengersCount": "2",
+  "expectedPrice": "$1169 USD",
+  "destination": "London"
+}

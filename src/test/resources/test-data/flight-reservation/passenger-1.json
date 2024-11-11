@@ -1,0 +1,13 @@
+{
+  "firstName": "John",
+  "LastName": "Wick",
+  "email": "yadowo@gmail.com",
+  "password": "mems",
+  "street": "525, Fifth Ave",
+  "city": "Jackill",
+  "zip": "10000",
+  "state": "Delaware",
+  "passengersCount": "1",
+  "expectedPrice": "$584 USD",
+  "destination": "New York"
+}

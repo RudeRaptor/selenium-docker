@@ -1,0 +1,13 @@
+{
+  "firstName": "Elisha",
+  "LastName": "Knusis",
+  "email": "actorscompany@gmail.com",
+  "password": "mems92626+-",
+  "street": "80, mainstown",
+  "city": "North Arkan",
+  "zip": "10080",
+  "state": "Iowa",
+  "passengersCount": "4",
+  "expectedPrice": "$2338 USD",
+  "destination": "Zurich"
+}
