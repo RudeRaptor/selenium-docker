@@ -1,7 +1,7 @@
 FROM bellsoft/liberica-openjdk-debian
 
 #install jq and curl
-RUN apt-get update && apt-get install -y curl jq
+RUN apt-get update && apt-get install -y curl jq dos2unix
 
 #workspcae
 WORKDIR /home/selenium-docker
