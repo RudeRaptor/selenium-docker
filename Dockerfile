@@ -6,9 +6,11 @@ RUN apt-get update && apt-get install -y curl jq
 #workspcae
 WORKDIR /home/selenium-docker
 
-ADD target/docker-resources     ./
-ADD runner.sh                   runner.sh
+COPY target/docker-resources     ./
+COPY runner.sh                   runner.sh
 
-# Start the runner.sh
-ENTRYPOINT sh runner.sh
+# Make runner.sh executable
+RUN chmod +x runner.sh
 
+# Start runner.sh
+ENTRYPOINT ["sh", "-c", "exec ./runner.sh"]
