@@ -9,8 +9,8 @@ WORKDIR /home/selenium-docker
 COPY target/docker-resources     ./
 COPY runner.sh                   runner.sh
 
-# Make runner.sh executable
-RUN chmod +x runner.sh
+# Fix for windows
+RUN dos2unix runner.sh
 
-# Start runner.sh
-ENTRYPOINT ["sh", "-c", "exec ./runner.sh"]
+# Start the runner.sh
+ENTRYPOINT sh runner.sh
