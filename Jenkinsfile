@@ -11,16 +11,16 @@ pipeline{
         stage("BUILD IMAGE***************"){
 
             steps{
-                bat "docker build -t=raptor22sq/seleniumjenk ."
+                bat "docker build -t=raptor22sq/seleniumautomation ."
             }
 
         }
         stage("PUSH IMAGE*************"){
 
             steps{
-                bat "docker push raptor22sq/seleniumjenk:latest"
-                bat "docker tag raptor22sq/seleniumjenk:latest raptor22sq/seleniumjenk:${env.BUILD_NUMBER}"
-                bat "docker push raptor22sq/seleniumjenk:${env.BUILD_NUMBER}"
+                bat "docker push raptor22sq/seleniumautomation:latest"
+                bat "docker tag raptor22sq/seleniumautomation:latest raptor22sq/seleniumautomation:${env.BUILD_NUMBER}"
+                bat "docker push raptor22sq/seleniumautomation:${env.BUILD_NUMBER}"
             }
         }
     }
